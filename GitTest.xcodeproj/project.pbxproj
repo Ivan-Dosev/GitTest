@@ -13,6 +13,7 @@
 		CCBBBD8425506213006283A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCBBBD8325506213006283A8 /* Preview Assets.xcassets */; };
 		CCBBBD8F25506213006283A8 /* GitTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBBBD8E25506213006283A8 /* GitTestTests.swift */; };
 		CCBBBD9A25506213006283A8 /* GitTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBBBD9925506213006283A8 /* GitTestUITests.swift */; };
+		CCBBBDAB255063FE006283A8 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBBBDAA255063FE006283A8 /* ModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		CCBBBD9525506213006283A8 /* GitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBBBD9925506213006283A8 /* GitTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitTestUITests.swift; sourceTree = "<group>"; };
 		CCBBBD9B25506213006283A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCBBBDAA255063FE006283A8 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				CCBBBD7C25506211006283A8 /* GitTestApp.swift */,
 				CCBBBD7E25506211006283A8 /* ContentView.swift */,
+				CCBBBDAA255063FE006283A8 /* ModalView.swift */,
 				CCBBBD8025506213006283A8 /* Assets.xcassets */,
 				CCBBBD8525506213006283A8 /* Info.plist */,
 				CCBBBD8225506213006283A8 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCBBBDAB255063FE006283A8 /* ModalView.swift in Sources */,
 				CCBBBD7F25506211006283A8 /* ContentView.swift in Sources */,
 				CCBBBD7D25506211006283A8 /* GitTestApp.swift in Sources */,
 			);
